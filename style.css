@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffe6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#header {
+    background-color: #dcb37b;
+    text-align: center;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#header h1 {
+    color: #0000cd;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#header blockquote {
+    background-color: #ffd700;
+    padding: 15px;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px dashed #333;
+}
+
+#header blockquote span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #0000cd;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.gambar img {
+    width: 45%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.isi {
+    margin-bottom: 30px;
+}
+
+.isi p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.isi p:first-of-type::first-letter {
+    color: #0000cd;
+    font-size: 4em;
+    float: left;
+    margin-right: 8px;
+    margin-top: -5px;
+    line-height: 0.8;
+    font-weight: bold;
+}
+
+#profil, #beternak {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #dcb37b;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.koleksi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.koleksi img {
+    width: 22%;
+    min-width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.promo {
+    background-color: #f9f9f9;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px dashed #dcb37b;
+    margin-top: 30px;
+}
+
+.promo h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.promo h3 strong {
+    color: red;
+    font-size: 1.2em;
+}
+
+.promo ol {
+    display: inline-block;
+    text-align: left;
+}
